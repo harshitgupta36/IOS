@@ -1,0 +1,5 @@
+rm -rf Pods
+rm -rf Podfile.lock
+rm -rf ~/Library/Caches/CocoaPods
+pod deintegrate
+pod install --repo-update
